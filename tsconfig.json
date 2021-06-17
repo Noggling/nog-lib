@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "noImplicitAny": true, 
+        "skipLibCheck": true,
+        "declaration": true,
+        "module": "commonjs",
+    },                                      
+    "compileOnSave": true,
+    "include": [
+        "./src"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nog-lib",
+  "version": "0.0.1",
+  "description": "nog-lib initial typscript libary",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "docs": "npx typedoc --out docs src/index.ts"
+  },
+  "keywords": [
+    "lib",
+    "nog",
+    "typescript"
+  ],
+  "author": "Noggling",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "4.2"
+  }
+}
