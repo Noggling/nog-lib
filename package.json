@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "docs": "npx typedoc --out docs src/index.ts"
+    "docs": "npx typedoc"
   },
   "keywords": [
     "lib",
