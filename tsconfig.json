@@ -2,17 +2,15 @@
     "compilerOptions": {
         "target": "es6",
         "outDir": "dist",
-        "noImplicitAny": true, 
+        "noImplicitAny": true,
         "skipLibCheck": true,
         "declaration": true,
-        "module": "commonjs",
-    },                                      
+        "module": "commonjs"
+    },
     "compileOnSave": true,
-    "include": [
-        "./src"
-    ],
+    "include": ["./src", "jest.config.js"],
     "typedocOptions": {
         "entryPoints": ["src/index.ts"],
         "out": "docs"
-      }
+    }
 }

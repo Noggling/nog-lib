@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 
 Please make sure you can check the following boxes:
 

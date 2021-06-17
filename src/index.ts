@@ -5,8 +5,8 @@
  * @param {string} input
  * @return {*}
  */
-export function nogLib(input: string) {
-  return input;
+export function nogLib(input: string): string {
+    return input;
 }
 
-console.log(nogLib("Hello World!"));
+console.log(nogLib('Hello World'));
