@@ -16,6 +16,7 @@
   "author": "Noggling",
   "license": "MIT",
   "devDependencies": {
+    "none": "^1.0.0",
     "typedoc": "^0.20.37",
     "typescript": "^4.3.4"
   }
