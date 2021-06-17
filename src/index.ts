@@ -5,7 +5,7 @@
  * @param {string} input
  * @return {*}
  */
-export function nogLib(input) {
+export function nogLib(input: string) {
   return input;
 }
 
