@@ -1,22 +1,30 @@
 {
   "name": "nog-lib",
   "version": "0.0.1",
-  "description": "nog-lib initial typscript libary",
+  "description": "nog-lib initial typescript library",
   "main": "index.js",
   "private": true,
   "scripts": {
     "build": "tsc",
     "start": "tsc && node ./dist/index.js",
-    "docs": "npx typedoc"
+    "docs": "npx typedoc",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --color --fix"
+
   },
   "keywords": [
     "lib",
     "nog",
     "typescript"
   ],
-  "author": "Noggling",
+  "author": "Nogglings",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1",
     "typedoc": "^0.20.37",
     "typescript": "^4.3.4"
   }

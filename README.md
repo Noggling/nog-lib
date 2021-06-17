@@ -1,8 +1,8 @@
-nog-lib
-===================
+# nog-lib
+
 [![License](https://img.shields.io/npm/l/@equinor/echo-core.svg)](https://github.com/Noggling/nog-lib/blob/main/package.json)
 
-A simple typscript libary project 
+A simple typescript library project
 
 - [nog-lib](#nog-lib)
   - [Documentation](#documentation)
@@ -14,23 +14,22 @@ A simple typscript libary project
 
 The documentation can be found at [nog-lib](https://noggling.github.io/nog-lib/)
 
-
 ## Development
 
 First time usage, run following command first:
 
 ```sh-session
-$ npm install
+npm install
 ```
 
 ### NPM build
 
 ```sh-session
-$ npm run build
+npm run build
 ```
 
 ### NPM start
 
 ```sh-session
-$ npm run start
+npm run start
 ```
