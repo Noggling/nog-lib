@@ -20,6 +20,7 @@ jobs:
       - name: Generate Library Docs
         run: |
           npm ci
+          npm install
           npm run docs
         env:
           CI: TRUE
