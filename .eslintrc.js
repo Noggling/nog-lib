@@ -1,12 +1,19 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
+  root: true,
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
   },
-  extends: ["plugin:@typescript-eslint/recommended", "prettier"],
+  plugins: ["@typescript-eslint"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
   rules: {
     "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/explicit-function-return-type": "warn",
     "no-console": "warn",
   },
 };
