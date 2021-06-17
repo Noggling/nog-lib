@@ -1,13 +1,9 @@
 {
-    "cSpell.ignoreWords": [
-
-    ],
-    "cSpell.words": [
-
-    ],
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-        "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": true,
+  "cSpell.ignoreWords": [],
+  "cSpell.words": [],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true
 }
