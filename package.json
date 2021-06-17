@@ -15,7 +15,7 @@
   ],
   "author": "Noggling",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "typescript": "4.2"
   }
 }
