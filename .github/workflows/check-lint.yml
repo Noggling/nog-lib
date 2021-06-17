@@ -1,35 +1,25 @@
 name: Lint
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the main branch
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    # Trigger the workflow on push or pull request,
+    # but only for the main branch
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
 
 jobs:
-  run-linters:
-    name: Run linters
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-
-      # ESLint and Prettier must be in `package.json`
-      - name: Install Node.js dependencies
-        run: npm ci
-
-      - name: Run linters
-        uses: wearerequired/lint-action@v1
-        with:
-          eslint: true
-          prettier: true
+    job:
+        runs-on: ubuntu-latest
+        timeout-minutes: 3
+        steps:
+            - uses: actions/checkout@v1
+            - name: Prepare
+              run: npm ci
+            - name: Lint
+              uses: mooyoul/tslint-actions@v1.1.1
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  pattern: '*.ts'
