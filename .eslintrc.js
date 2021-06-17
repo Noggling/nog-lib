@@ -7,6 +7,6 @@ module.exports = {
   extends: ["plugin:@typescript-eslint/recommended", "prettier"],
   rules: {
     "@typescript-eslint/no-use-before-define": "off",
-    "no-console": "on",
+    "no-console": "warn",
   },
 };
