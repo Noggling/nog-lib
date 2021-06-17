@@ -9,4 +9,4 @@ export function nogLib(input: string) {
   return input;
 }
 
-console.log(nogLib("Hello World!"));
+console.log(nogLib("Hello World"));
