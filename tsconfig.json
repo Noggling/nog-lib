@@ -10,5 +10,9 @@
     "compileOnSave": true,
     "include": [
         "./src"
-    ]
+    ],
+    "typedocOptions": {
+        "entryPoints": ["src/index.ts"],
+        "out": "docs"
+      }
 }
