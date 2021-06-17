@@ -1,9 +1,9 @@
 name: Publish to GitHub Pages
 
 on:
-  pull_request:
-    branches:
-      - main
+  push:
+  branches:
+    - main
 
 jobs:
   publish:
@@ -20,7 +20,6 @@ jobs:
       - name: Generate Library Docs
         run: |
           npm ci
-          npm install
           npm run docs
         env:
           CI: TRUE
