@@ -1,16 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "outDir": "dist",
-    "noImplicitAny": true,
-    "skipLibCheck": true,
-    "declaration": true,
-    "module": "commonjs"
-  },
-  "compileOnSave": true,
-  "include": ["./src"],
-  "typedocOptions": {
-    "entryPoints": ["src/index.ts"],
-    "out": "docs"
-  }
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "module": "commonjs"
+    },
+    "compileOnSave": true,
+    "include": ["./src", "jest.config.js"],
+    "typedocOptions": {
+        "entryPoints": ["src/index.ts"],
+        "out": "docs"
+    }
 }

@@ -9,6 +9,5 @@ module.exports = {
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
     rules: {
         '@typescript-eslint/no-use-before-define': 'off'
-        // '@typescript-eslint/explicit-function-return-type': 'warn'
     }
 };
