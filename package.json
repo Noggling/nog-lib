@@ -9,7 +9,8 @@
     "start": "tsc && node ./dist/index.js",
     "docs": "npx typedoc",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
-    "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --color --fix"
+    "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --color --fix",
+    "lint-strict": "eslint --ext .js,.jsx,.ts,.tsx src --color --max-warnings=0"
   },
   "keywords": [
     "lib",

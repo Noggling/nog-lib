@@ -20,7 +20,9 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: 12
-            - name: yarn install
-              run: yarn install
+            - name: Run npm install
+              run: npm install
             - name: eslint
               uses: icrawl/action-eslint@v1
+            - name: Run strict linting
+              run: npm run lint-strict
